@@ -1,0 +1,35 @@
+@import '../variables.scss';
+
+.Footer {
+	background: $black;
+	height: 5rem;
+	color: $white;
+
+	.internet-icon {
+		background-image: url('../assets/Cuts/tab_internets@2x.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 0 auto;
+		width: 35px;
+		height: 35px;
+
+		&:after {
+			content: 'internets';
+			position: absolute;
+		}
+	}
+
+	.lunch-icon {
+		background-image: url('../assets/Cuts/tab_lunch@2x.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 0 auto;
+		width: 35px;
+		height: 35px;
+
+		&:after {
+			content: 'lunch';
+			position: absolute;
+		}
+	}
+}

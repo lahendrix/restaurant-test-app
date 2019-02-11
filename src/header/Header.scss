@@ -1,0 +1,24 @@
+@import '../variables.scss';
+
+.Header {
+	background: $green;
+	height: 5rem;
+	width: 100%;
+	color: $white;
+	text-align: center;
+	font-size: 17px;
+
+	.fa-chevron-left {
+		font-size: 25px;
+		color: $white;
+	}
+
+	.map-icon {
+		background-image: url('../assets/Cuts/icon_map@2x.png');
+		background-repeat: no-repeat;
+		width: 35px;
+		height: 35px;
+		background-size: contain;
+		margin: 0 auto;
+	}
+}
